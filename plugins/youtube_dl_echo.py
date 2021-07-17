@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) anonymoushackingtool
+# (c) Shrimadhav U K
 
 # the logging things
 import logging
@@ -26,7 +26,6 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from helper_funcs.chat_base import TRChatBase
 from helper_funcs.display_progress import humanbytes
 from helper_funcs.help_uploadbot import DownLoadFile
 
@@ -38,7 +37,6 @@ async def echo(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")
         return
-    TRChatBase(update.from_user.id, update.text, "/echo")
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
         try:
@@ -49,14 +47,14 @@ async def echo(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="**_Join our Bot's Channel to use ME_**",
+                text="**Join My Updates Channel to use ME 😎 🤭**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join our Bot's Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join My Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
         except Exception:
-            await update.reply_text("Something Wrong. Contact us on @ErrorSupportbot")
+            await update.reply_text("Something Wrong. Contact my Support Group")
             return
     logger.info(update.from_user)
     url = update.text

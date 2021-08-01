@@ -32,7 +32,9 @@ from helper_funcs.help_uploadbot import DownLoadFile
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 
-@pyrogram.Client.on_message(pyrogram.filters.regex(pattern=".*http.*"))
+ytregex = r"^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$"
+
+@pyrogram.Client.on_message(pyrogram.filters.regex(ytregex))
 async def echo(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are B A N N E D 🤣🤣🤣🤣")

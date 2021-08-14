@@ -35,11 +35,10 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: Free User
 Expires on: 02/11/2022"""
-    HELP_USER = """Hai am All Site Downloader bot..
+    HELP_USER = """Hai am YouTube Downloader bot..
     
 1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
+2. Select the button.
    SVideo - Give File as video with Screenshots
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
@@ -50,7 +49,7 @@ Expires on: 02/11/2022"""
 --------
 Send /me to know current plan details
 
-© <a href='https://t.me/TG_Free_Bots'>TG Free Bots</a>"""
+© <a href='https://www.instagram.com/ragug19?'>Instagram</a>"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"

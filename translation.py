@@ -1,12 +1,12 @@
 class Translation(object):
     START_TEXT = """Hello,
-This is a FREE Telegram All Site Downloader Bot!
+This is a FREE Telegram YouTube Downloader Bot!
 
 <b>Please send me any direct download URL Link, I can upload to telegram as File/Video</b>
 
 /help for more details..
 
-© <a href='https://t.me/TG_Free_Bots'>TG Free Bots</a>"""
+© <a href='https://www.instagram.com/ragug19?'>Instagram</a>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>Currently this option is unavailable,I am sorry😭😭</b>"

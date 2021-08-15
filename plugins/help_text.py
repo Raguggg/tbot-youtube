@@ -62,9 +62,9 @@ async def start(bot, update):
         chat_id=update.chat.id,
         text=Translation.START_TEXT,
          reply_markup=InlineKeyboardMarkup([
-        [InlineKeyboardButton("Channel", url="https://t.me/aryan_bots")],
+        [InlineKeyboardButton("Telegram Sticker", url="https://www.instagram.com/s/aGlnaGxpZ2h0OjE3OTc2ODU0NzI4Mzk4MjY5?")],
         [InlineKeyboardButton(
-            "Report Bugs 😊", url="https://t.me/aryanvikash")]
+            "Report Bugs 😊", url="https://www.instagram.com/ragug19?")]
     ]),
         reply_to_message_id=update.message_id
     )

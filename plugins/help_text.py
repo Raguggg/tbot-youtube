@@ -54,7 +54,7 @@ async def get_me_info(bot, update):
         reply_to_message_id=update.message_id
     )
 
-
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 @pyrogram.Client.on_message(pyrogram.filters.command(["start"]))
 async def start(bot, update):
     # logger.info(update)

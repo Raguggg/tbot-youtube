@@ -13,9 +13,9 @@ This is a FREE Telegram YouTube Downloader Bot!
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
-    NOYES_URL = "@AllSiteDownloaderBot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download..."
-    UPLOAD_START = "trying to upload..."
+    NOYES_URL = "raguutubebot and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    DOWNLOAD_START = "trying to download ⬇️..."
+    UPLOAD_START = "trying to upload 📤..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please share your feedback in my Instagram page and <a href='https://www.instagram.com/ragug19?/3'> check telegram sticker package</a>. Instagram : ragug19"
@@ -34,7 +34,7 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free User
-Expires on: 02/11/2022"""
+Expires on: 02/11/2032"""
     HELP_USER = """Hai am YouTube Downloader bot..
     
 1. Send url (Link|New Name with Extension).

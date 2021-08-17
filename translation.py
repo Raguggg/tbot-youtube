@@ -7,6 +7,7 @@ This is a FREE Telegram YouTube Downloader Bot!
 /help for more details..
 
 © <a href='https://www.instagram.com/ragug19?'>Instagram</a>
+
 © <a href='http://byrl.me/raguutubebott'>demo video</a>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
@@ -50,7 +51,9 @@ Expires on: 02/11/2032"""
 --------
 Send /me to know current plan details
 
-© <a href='https://www.instagram.com/ragug19?'>Instagram</a>"""
+© <a href='https://www.instagram.com/ragug19?'>Instagram</a>
+
+© <a href='http://byrl.me/raguutubebott'>demo video</a>"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"

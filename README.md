@@ -15,7 +15,7 @@ An ALL-In-One Telegram Bot, that can do lot of things.
 
 #### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anonymoushackingtool/All-Site-Downloader/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RG-bots/alldowm.git)
 
 #### The Hard Way
 
@@ -27,9 +27,3 @@ cp sample_config.py config.py
 --- EDIT config.py values appropriately ---
 python bot.py
 ```
-## Our Telegram Channel
-
-* [TG Free Bots](https://t.me/TG_Free_Bots)
-
-#### LICENSE
-- GPLv3
